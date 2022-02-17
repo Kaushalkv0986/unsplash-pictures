@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unsplash-pictures/static/css/main.273ac314.css",
+    "main.js": "/unsplash-pictures/static/js/main.7f90f749.js",
+    "index.html": "/unsplash-pictures/index.html",
+    "main.273ac314.css.map": "/unsplash-pictures/static/css/main.273ac314.css.map",
+    "main.7f90f749.js.map": "/unsplash-pictures/static/js/main.7f90f749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.273ac314.css",
+    "static/js/main.7f90f749.js"
+  ]
+}
