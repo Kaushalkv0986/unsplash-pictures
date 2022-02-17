@@ -1,10 +1,10 @@
 import React from 'react';
+// import {average,prominant} from 'color.js'
 
 class ImageCard extends React.Component {
-
   constructor(props) {
     super(props);
-    this.state = { gridRowEnd: 0 };
+    this.state = { gridRowEnd: 0};
     this.imageRef = React.createRef();
   }
 
@@ -15,7 +15,6 @@ class ImageCard extends React.Component {
 
   setGridRowEnd = () => {
     const imgHeight = this.imageRef.current.clientHeight;
-
     /* 10 is set as grid-auto-rows height in css */
     const spans = Math.ceil(imgHeight / 10) + 1;
     this.setState({ gridRowEnd: spans });
